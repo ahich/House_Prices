@@ -49,7 +49,9 @@ bedrooms	           Discrete (Integer).
 house_type	         Ordinal (Category). 
 area	               Continuous (Float, rounded to one decimal in square meters). 
 ```
-The sale price is then investigated against various inputs to study what impacts most its variation:
+The sale price is then investigated against various inputs to study what impacts most its variation, e.g.:
 
 ![image](https://github.com/user-attachments/assets/a8d689d3-ecde-4c66-81af-d1e8588e9b16)
+![image](https://github.com/user-attachments/assets/d09ef946-3143-4302-b942-9b69ab482680)
+
 
