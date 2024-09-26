@@ -36,5 +36,6 @@ However, printing the unique values of each field unveils anomalies like for the
 ```
 ['Semi-detached' 'Detached' 'Det.' 'Terraced' 'Semi' 'Terr.']
 ```
+Appropriate text substitutions for this field and the area field, and transformation to the appropriate types are performed to prepare for visualization and modeling:
 
-The fields are then set to appropriate types to prepare for visualization and modeling.
+
