@@ -51,4 +51,5 @@ area	               Continuous (Float, rounded to one decimal in square meters).
 ```
 The sale price is then investigated against various inputs to study what impacts most its variation:
 
-![alt text]
+![image](https://github.com/user-attachments/assets/a8d689d3-ecde-4c66-81af-d1e8588e9b16)
+
