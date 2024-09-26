@@ -39,13 +39,13 @@ However, printing the unique values of each field unveils anomalies like for the
 Appropriate text substitutions for this field and the area field, and transformation to the appropriate types are performed to prepare for visualization and modeling:
 
 ```
-Column Name	Criteria
-house_id	Nominal. Unique identifier for houses. Missing values not possible.
-city	Nominal. The city in which the house is located. One of 'Silvertown', 'Riverford', 'Teasdale' and 'Poppleton' Replace missing values with "Unknown".
-sale_price	Discrete. The sale price of the house in whole dollars. Values can be any positive number greater than or equal to zero.Remove missing entries.
-sale_date	Discrete. The date of the last sale of the house. Replace missing values with 2023-01-01.
-months_listed	Continuous. The number of months the house was listed on the market prior to its last sale, rounded to one decimal place. Replace missing values with mean number of months listed, to one decimal place.
-bedrooms	Discrete. The number of bedrooms in the house. Any positive values greater than or equal to zero. Replace missing values with the mean number of bedrooms, rounded to the nearest integer.
-house_type	Ordinal. One of "Terraced", "Semi-detached", or "Detached". Replace missing values with the most common house type.
-area	Continuous. The area of the house in square meters, rounded to one decimal place. Replace missing values with the mean, to one decimal place.
+Column              Type
+house_id	           Nominal (Category). 
+city	               Nominal (Category). 
+sale_price	         Discrete (Integer), in dollars.
+sale_date	          Discrete (Time stamp). 
+months_listed	      Continuous (Float, rounded to one decimal). 
+bedrooms	           Discrete (Integer). 
+house_type	         Ordinal (Category). 
+area	               Continuous (Float, rounded to one decimal in square meters). 
 ```
