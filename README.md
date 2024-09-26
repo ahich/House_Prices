@@ -56,4 +56,4 @@ The sale price is then investigated against various inputs to study what impacts
 
 A simple linear regression, and a more complicated ML, are then applied to minimize the variance of the predicted sale price.
 
-[Detailed notebook] (https://github.com/ahich/House_Prices/blob/main/house_prices.ipynb)
+[Detailed notebook](https://github.com/ahich/House_Prices/blob/main/house_prices.ipynb)
