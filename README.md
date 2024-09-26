@@ -31,6 +31,10 @@ bedrooms          0
 house_type        0
 area              0
 ```
-However, printing the unique values of each field unveils
+However, printing the unique values of each field unveils anomalies like for the house type:
+
+```
+['Semi-detached' 'Detached' 'Det.' 'Terraced' 'Semi' 'Terr.']
+```
 
 The fields are then set to appropriate types to prepare for visualization and modeling.
