@@ -50,3 +50,5 @@ house_type	         Ordinal (Category).
 area	               Continuous (Float, rounded to one decimal in square meters). 
 ```
 The sale price is then investigated against various inputs to study what impacts most its variation:
+
+![alt text]
