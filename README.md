@@ -19,4 +19,18 @@ Predicting the sale price of houses depending on parameters such as the neighbor
 
 The work starts with a detailed Exploratory Data Analysis where both explicit NaN and non-NaN invalid values for the fields are treated through cleaning, insertion and text substitution.
 
+Number of NaN occurrences for the fields:
+
+```
+house_id          0
+city              0
+sale_price        0
+sale_date         0
+months_listed    31
+bedrooms          0
+house_type        0
+area              0
+```
+However, printing the unique values of each field unveils
+
 The fields are then set to appropriate types to prepare for visualization and modeling.
