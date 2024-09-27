@@ -1,5 +1,5 @@
 # House Prices
-Predicting the sale price of houses depending on parameters such as the neighborhood, number of the bedrooms, house type, area, city.
+Predicting the sale price of houses depending on parameters such as the neighborhood, number of bedrooms, house type, area, city.
 
 ```
  house_id        city  sale_price   sale_date  months_listed  bedrooms  \
